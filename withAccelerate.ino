@@ -20,10 +20,16 @@ void setup() {
  setUpAllPins(); 
 }
 void loop(){ 
-  clearTheHighWay();
+  startRobotRescueMission();           //Robot rescue entry point
 }
 
-void clearTheHighWay(){
+void startRobotRescueMission(){
+  clearTheHighWay();                   //Task 1
+  startRescue();                       //Task 2
+  goToParking();                       //Task 3
+}
+
+void clearTheHighWay(){                       //general functions on clearing the highways and heading to disaster management zone
   applyFowardGear(3);
   followTheLineExpectingARightTurn();
   makeASharpRightTurn();
@@ -45,10 +51,9 @@ void clearTheHighWay(){
   makeAReverseLineFollowExpectingLeftTurn();
   makeASharpLeftTurn();
   solveTennisBallPuzzle();
-  startRescue();
 } 
 
-void startRescue(){
+void startRescue(){                           //collection of functions to rush the victims of fire outbreak to disaster management zone
   makeAReverseLineFollowExpectingLeftTurn();
   makeASharpLeftTurn();
   applyFowardGear(2);
@@ -91,10 +96,9 @@ void startRescue(){
   applyFowardGear(2);
   carryLoadToDroppingArea();
   releaseTheObstacleAndLiftArmToHeight(&button30cm);
-  goToParking();
 }
 
-void goToParking(){
+void goToParking(){                              // The robot has completed all assigned task and goes to sleeping mode
   makeARotationToTurnBack();
   applyFowardGear(4);
   followTheRoadExpectingACoolLeftTurn();
