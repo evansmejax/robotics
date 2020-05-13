@@ -8,8 +8,8 @@
  * COM/0025/16
  * All Rights Reserved
  * evanslagat911@gmail.com
- * Whatsapp:: +254792281868...
- * Website :: https://www.programmingempire.tk
+ * Whatsapp:: +254740664839...
+ * Website :: https://www.advertjet.com
 **/
 #include  <Servo.h>
 Servo     servoGrip;
@@ -117,6 +117,7 @@ void goToParking(){                              // The robot has completed all 
  * COM/0025/16
  * All Rights Reserved
  * evanslagat911@gmail.com
- * Whatsapp:: @0792281868...
+ * Whatsapp:: +254740664839...
+ * Website :: https://www.advertjet.com
  * Website :: https://www.github.com/evanMeja
 **/
