@@ -9,7 +9,7 @@
  * All Rights Reserved
  * evanslagat911@gmail.com
  * Whatsapp:: +254740664839...
- * Website :: https://www.advertjet.com
+ * Website :: https://www.tuzowe.co.ke
 **/
 #include  <Servo.h>
 Servo     servoGrip;
@@ -118,6 +118,6 @@ void goToParking(){                              // The robot has completed all 
  * All Rights Reserved
  * evanslagat911@gmail.com
  * Whatsapp:: +254740664839...
- * Website :: https://www.advertjet.com
+ * Website :: https://www.tuzowe.co.ke
  * Website :: https://www.github.com/evanMeja
 **/
