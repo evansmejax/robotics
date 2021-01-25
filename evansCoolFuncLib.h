@@ -18,7 +18,7 @@ reverseHighSpeed              = 113;
 reverseLowSpeed               = 103;
 reverseMoveSpeed              = 140;
 reverseTurnMoveSpeed          = 120;
-reverseMoveCorrectionSpeed    = 81;
+reverseMoveCorrectionSpeed    = 80;
 
 patientALowSpeed              = 10;
 patientAHighSpeed             = 120;
